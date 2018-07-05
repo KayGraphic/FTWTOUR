@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ftwtour</string>
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_desserts">Desserts</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20]
+    <string name="category_colors">Colors</string> -->
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+
+    <string name="category_parks">Parks</string>
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_coffee">Coffee</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_dives">Dives</string>
+
+</resources>
