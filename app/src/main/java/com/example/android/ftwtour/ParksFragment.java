@@ -12,32 +12,21 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
-
 import java.util.ArrayList;
 
 /**
- * A simple {@link Fragment} subclass.
+ * A simple {@link Fragment} subclass. Inflates a viewGroup, uses wordlistXML to make items.
  */
 public class ParksFragment extends Fragment {
-    
-
-
-
-public ParksFragment() {
-// Required empty public constructor
-}
-
+    public ParksFragment() {
 @Override
 public View onCreateView(LayoutInflater inflater, ViewGroup container,
 Bundle savedInstanceState) {
 View rootView = inflater.inflate(R.layout.word_list, container, false);
-
-
-
-// Create a list of Locations
+// Create an arraylist to add locations to.
 final ArrayList<Location> Locations = new ArrayList<Location>();
-
-Locations.add(new Location("Moody Park","әpә","1234 West North Street",R.drawable.c1));
+    
+Locations.add(new Location("Gritty Park","Great place for kids if thry don't have allergies to ragweed, lambsquarters or poison ivy. One splinter-filled picnic table is all you need for family fun time ","1234 West North Street",R.drawable.gritty));
     Locations.add(new Location("Swinney Park","әpә","1234 West North Street",R.drawable.c2));
     Locations.add(new Location("Foster Park","әpә","WYTRWETREYTWR",R.drawable.c3));
     Locations.add(new Location("Stringbell Park","әpә","1234 West North Street",R.drawable.c4));
