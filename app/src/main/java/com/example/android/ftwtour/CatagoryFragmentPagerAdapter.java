@@ -1,7 +1,4 @@
 package com.example.android.ftwtour;
-
-
-
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -10,14 +7,8 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class CatagoryFragmentPagerAdapter extends FragmentPagerAdapter {
     final int PAGE_COUNT = 4;
-
     private String tabTitles[] = new String[] { "Desserts", "Parks", "Dives","Coffee" };
     private Context mContext;
-
-    public CatagoryFragmentPagerAdapter(FragmentManager fm) {
-        super(fm);
-    }
-
     public CatagoryFragmentPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
         mContext = context;
