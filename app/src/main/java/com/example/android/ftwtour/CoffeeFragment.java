@@ -31,11 +31,11 @@ public CoffeeFragment() {
 // Create a list of Locations
         final ArrayList<Location> Locations = new ArrayList<Location>();
 
-        Locations.add(new Location("1","әpә","1234 West North Street",R.drawable.c1));
-        Locations.add(new Location("2","әpә","1234 West North Street",R.drawable.c2));
-        Locations.add(new Location("3","әpә","WYTRWETREYTWR",R.drawable.c3));
-        Locations.add(new Location("4","әpә","1234 West North Street",R.drawable.c4));
-        Locations.add(new Location("5","әpә","1234 West North Street",R.drawable.c5));
+        Locations.add(new Location("Itzz Ice Cream","Delicious pour-over coffee with plenty of air conditioning for those who like to drink coffee on hot summer days.","1234 West North Street",R.drawable.coffee1));
+        Locations.add(new Location("Jimmer's Bakery","Americano's are the house specialty. Make sure to arrive before 11 am to make sure to get a delicious 'Frookie' before the sell out.","1234 West North Street",R.drawable.coffee2));
+        Locations.add(new Location("Saint Joe Sweets","The chocolate crescent rolls are topped with whipped cream and sprinklesat this charming coffee/pastry shop","325 Ceental Ave",R.drawable.coffee3));
+        Locations.add(new Location("Nerdy Donuts","әpә","1234 West North Street",R.drawable.coffee4));
+        Locations.add(new Location("Casablanca Cookies","әpә","1234 West North Street",R.drawable.coffee5));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), Locations, R.color.category_coffee);
         View view = inflater.inflate(R.layout.word_list, container, false);

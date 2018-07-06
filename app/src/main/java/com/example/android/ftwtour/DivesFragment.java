@@ -40,7 +40,7 @@ final ArrayList<Location> Locations = new ArrayList<>();
     Locations.add(new Location("The Redwood Inn","Perfect for those nights when you want to get drunk on skunked Bud Light and eat church youth group pizza squares. Abiance includes overly loud Jukebox with all your favorite late 90s hits. A destination for people who love dark bars and sticky tables","1234 West North Street",R.drawable.redwood));
     Locations.add(new Location("Broadway Joes","If you hate puntuation and restraining orders, this is the place for you. Originally a 2 story building, it caught fire in 2006 and now is a one story building, one that involves late child support payments, that white van that is parked outside the front door that operates as the 'Smoking Lounge' in winter and the pizza rolls that will give you instant acid reflux","1234 Broadway",R.drawable.broadwayjoes));
     Locations.add(new Location("The DugOut","The name functions as a reminder to patrons to bring their drug paraphernalia with them on their next visit. No problem if you forgot your coke mirror, you can use the back of the toilet because you are classy like that.","1234 Fairfield",R.drawable.dugout));
-    Locations.add(new Location("4","әpә","1234 West North Street",R.drawable.c4));
+    Locations.add(new Location("","әpә","1234 West North Street",R.drawable.c4));
     Locations.add(new Location("5","әpә","1234 West North Street",R.drawable.c5));
 
 LocationAdapter adapter =
