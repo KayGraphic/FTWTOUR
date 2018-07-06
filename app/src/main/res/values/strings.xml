@@ -8,5 +8,7 @@
     <string name ="description_redwood_inn">text</string>
     <string name ="description_the_rock">text</string>
     <string name ="description_a_and_o">text</string>
+    <string name ="description_dugout">text</string>
+    
 
 </resources>
