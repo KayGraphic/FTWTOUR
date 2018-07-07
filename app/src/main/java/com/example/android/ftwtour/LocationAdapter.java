@@ -22,7 +22,7 @@ public class LocationAdapter extends ArrayAdapter<Location> {
 
     @NonNull
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(int position, View convertView, @NonNull ViewGroup parent) {
 
         final Location currentLocation = getItem(position);
         View listItemView;
@@ -33,8 +33,9 @@ public class LocationAdapter extends ArrayAdapter<Location> {
                     R.layout.list_items, parent, false);
         }
 
-        ImageView imageLocationTextView = (ImageView) listItemView.findViewById(R.id.photo_image_view);
-        imageLocationTextView.setImageResource(currentLocation.getImageResourceId());
+        ImageView imageLocationView = (ImageView) listItemView.findViewById(R.id.photo_image_view);
+        assert currentLocation != null;
+        imageLocationView.setImageResource(currentLocation.getImageResourceId());
 
 
         TextView nameLocationTextView = (TextView) listItemView.findViewById(R.id.name_text_view);

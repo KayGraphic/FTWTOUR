@@ -1,30 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
     <style name="name">
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">@dimen/title_text</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_marginRight">@dimen/margin</item>
+        <item name="android:layout_marginLeft">@dimen/margin</item>
+        <item name="android:layout_marginBottom">@dimen/small_margin</item>
     </style>
 
     <style name="description">
-        <item name="android:textSize">14sp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:layout_marginLeft">8dp</item>
-        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textSize">@dimen/description_text</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:layout_marginRight">@dimen/margin</item>
+        <item name="android:layout_marginLeft">@dimen/margin</item>
+        <item name="android:layout_marginBottom">@dimen/small_margin</item>
+        <item name="android:background">@color/tan_background</item>
     </style>
 
     <style name="information">
         <item name="android:textStyle">bold</item>
-    <item name="android:textSize">16sp</item>
-    <item name="android:layout_marginRight">8dp</item>
-    <item name="android:layout_marginLeft">8dp</item>
-    <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textSize">@dimen/location_text</item>
+        <item name="android:layout_marginRight">@dimen/margin</item>
+        <item name="android:layout_marginLeft">@dimen/margin</item>
+        <item name="android:layout_marginBottom">@dimen/small_margin</item>
+    </style>
+    <!--    TabLayoutstyle from a StackOverflow question posted by IlyaEremin on June 10, 2015 and answered by Akshay on July 16, 2015
+        https://stackoverflow.com/questions/30754203/tablayout-tab-style/31465146-->
+    <style name="tabs">
+        <item name="tabBackground">@color/colorPrimary</item>
+        <item name="tabIndicatorColor">@color/colorAccent</item>
+        <item name="tabSelectedTextColor">@color/colorAccent</item>
+        <item name="tabTextAppearance">@style/tabsText</item>
+    </style>
+
+    <style name="tabsText" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/tan_background</item>
     </style>
 </resources>

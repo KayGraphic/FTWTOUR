@@ -10,7 +10,7 @@ public class DivesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_catagory);
         getSupportFragmentManager().beginTransaction()
-        .replace(R.id.container, new DessertsFragment())
+                .replace(R.id.container, new DivesFragment())
         .commit();
     }
 }

@@ -1,18 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ftwtour</string>
-    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="app_name">Fort Waste, Indiana </string>
     <string name="category_desserts">Desserts</string>
-
-    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20]
-    <string name="category_colors">Colors</string> -->
-
-    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
-
     <string name="category_parks">Parks</string>
-    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_coffee">Coffee</string>
-
-    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_dives">Dives</string>
+    <string name="redwood_inn">Perfect for those nights when you want to get drunk on skunked Bud Light and eat church youth group pizza squares. Ambiance includes overly loud Jukebox with all your favorite late 90s hits. A destination for people who love dark bars and sticky tables.</string>
+    <string name="broadway_joes">If you hate punctuation and restraining orders, this is the place for you. Originally a 2 story building, it caught fire in 2006 and now is a one story building, one that involves late child support payments, that white van that is parked outside the front door that operates as the \'Smoking Lounge\' in winter and the pizza rolls that will give you instant acid reflux</string>
+    <string name="dugout">The name functions as a reminder to patrons to bring their drug paraphernalia with them on their next visit. No problem if you forgot your coke mirror, you can use the back of the toilet because you are classy like that.</string>
+    <string name="location_redwood">The Redwood Inn</string>
+    <string name="location_broadway">Broadway Joes</string>
+    <string name="location_dugout">The DugOut</string>
+    <string name="location_braodway">Broadway Grille</string>
+    <string name="location_rock">The Rock</string>
+    <string name="description_broadway">While technically not a grill, enterprising types can cobble together a \'walking taco\' of sorts with taco flavored combos, funyuns and a few dashes of bloody mary mix. Bon Appétit</string>
+    <string name="description_rock">Do not expect staff to dig through the garbage to find your severed finger\, again. It was bad enough the first time. Next time watch your fingers.</string>
+    <string name="address_redwood">1234 West North Street</string>
+    <string name="address_broadway_joes">1234 Broadway Ave</string>
+    <string name="address_dugout">1234 Fairfield</string>
+    <string name="address_broadway_grill">1234 West North Street</string>
+    <string name="address_rock">1234 West Broadway Street</string>
+    <string name="location_gritty">Gritty Park</string>
+    <string name="description_gritty">Great place for kids if they don\'t have allergies to ragweed, lambs quarters or poison ivy. One splinter-filled picnic table is all you need for family fun time.</string>
+    <string name="address_gritty">1234 West North Street</string>
+    <string name="location_swiney">Swiney Park</string>
+    <string name="description_swiney">This strip of land is currently recuperating from being on local police records as an area known for prostitution and drug dealing. Now it operates as the overflow basin when the Chicsaw river overflows.</string>
+    <string name="address_swiney">1234 West North Street</string>
+    <string name="location_fester">Fester Park</string>
+    <string name="description_fester">Once surrounded by the homes of the crumbling middle class, this plot of infrequently tended grass is slowly being reclaimed by the land, a great lesson in the resilience of nature.</string>
+    <string name="address_fester">353 Foster Way</string>
+    <string name="location_stringbell">Stringbell Park</string>
+    <string name="description_stringbell">In need of an outdoor pavilion only partially restored? This the place for you, also, marvel at the flying ant infestations sometimes known as termites</string>
+    <string name="address_stringbell">8364 Insect Ave</string>
+    <string name="location_macdonna">MacDonna Park</string>
+    <string name="description_macdonna">Tucked away behind a fast food conglomerate, this park is just perfect for tossing your trash. Extra points for the open tins of sardines a local cat lover leaves strewn about the place.</string>
+    <string name="address_macdonna">93092 Highway 36</string>
+    <string name="location_sugar">SugarMama\'s</string>
+    <string name="description_sugar">Delicious treats include bakery fresh breads, cookies and pleanty of scones, made the old fashion way.</string>
+    <string name="address_sugar">1234 West North Street</string>
+    <string name="location_cupcake">Cupcake Junction</string>
+    <string name="description_cupcake">People line up around the block to score an ultra fancy cupcake/moonpie combination called the \'Cupie\'.</string>
+    <string name="address_cupcake">3275 W. Cavity Street</string>
+    <string name="location_tree">Tree Renegade</string>
+    <string name="description_tree">Don\'t let the name fool you, Donuts are the only menu item worth the trouble. The old standbys are here, but also the \'Cricket Delux\' complete with a dusting of crushed crickets</string>
+    <string name="address_tree">162 Disturbing Lane</string>
+    <string name="location_foursweet">4Sweet\'s Sake</string>
+    <string name="description_foursweets">Offering sweets to the city since 1892, the owners are intent on serving the only four kinds of sweets available from that time. Menu items include, hardtack, one sugar cube, honeycomb with bee parts and an onion to be worn tied to the belt.</string>
+    <string name="address_foursweets">386732 Fashion Ave</string>
+    <string name="location_itzz">Itzz Ice Cream</string>
+    <string name="description_itzz">Delicious pour-over coffee with plenty of air conditioning for those who like to drink coffee on hot summer days.</string>
+    <string name="address_itzz">1234 Pierson Way</string>
+    <string name="location_jimmers">Jimmer\'s Bakery</string>
+    <string name="description_jimmers">Americano\'s are the house specialty. Make sure to arrive before 11 am to make sure to get a delicious \'Frookie\' before the sell out.</string>
+    <string name="address_jimmers">365 Hyper Drive</string>
+    <string name="description_joe">The chocolate crescent rolls are topped with whipped cream and sprinkles at this charming coffee/pastry shop.</string>
+    <string name="location_joe">Saint Joe Sweets</string>
+    <string name="address_joe">325 Ceental Ave</string>
+    <string name="location_nerdy">Nerdy Coffee</string>
+    <string name="description_nerdy">The pour over here take a full five minutes. If this is offensive to you, you might be better off going to someplace that makes coffee quickly, like Casablanca Espresso Bar.</string>
+    <string name="address_nerdy">1234 Awkward Ave</string>
+    <string name="location_casablanca">Casablanca Espresso Bar</string>
+    <string name="description_casablanca">The folks here are speedy to the point of blurriness. If you need your coffee STAT, get here as soon as possible because your cup is already on the counter.</string>
+    <string name="address_casablanca">1234 West North Street</string>
+
 
 </resources>
