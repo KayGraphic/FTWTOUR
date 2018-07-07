@@ -12,18 +12,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
 
-        // CategoryFragmentPagerAdapter adapter =
-        //     new CategoryFragmentPagerAdapter(getSupportFragmentManager());
 
+        assert viewPager != null;
         viewPager.setAdapter(new CatagoryFragmentPagerAdapter(getSupportFragmentManager(),
                 MainActivity.this));
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
+        assert tabLayout != null;
         tabLayout.setupWithViewPager(viewPager);
     }
 }

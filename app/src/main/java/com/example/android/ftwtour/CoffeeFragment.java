@@ -24,7 +24,6 @@ public class CoffeeFragment extends Fragment {
         Locations.add(new Location(getString(R.string.location_casablanca), getString(R.string.description_casablanca), getString(R.string.address_casablanca), R.drawable.coffee5));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), Locations, R.color.category_coffee);
-        View view = inflater.inflate(R.layout.word_list, container, false);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
         return rootView;
