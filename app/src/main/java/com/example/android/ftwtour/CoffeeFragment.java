@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+/* Android Fragment onCreateView code from Miwok app, supplemented by code from JournalDev.com
+https://www.journaldev.com/9266/android-fragment-lifecycle Accessed 2018_07_07*/
 public class CoffeeFragment extends Fragment {
     public CoffeeFragment() {
 

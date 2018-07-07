@@ -1,5 +1,5 @@
 package com.example.android.ftwtour;
-
+//ViewPager with FragmentPager Adapter code informed by https://guides.codepath.com/android/viewpager-with-fragmentpageradapter Accessed 2018_06_30
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

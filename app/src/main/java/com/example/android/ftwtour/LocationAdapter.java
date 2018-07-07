@@ -11,7 +11,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-
+/* Custom Class code adapted from Miwok app, supplemented by code from a Medium article by Nikhil Bansal
+* https://medium.com/mindorks/custom-array-adapters-made-easy-b6c4930560dd*/
 public class LocationAdapter extends ArrayAdapter<Location> {
     private int mColorResourceId;
 

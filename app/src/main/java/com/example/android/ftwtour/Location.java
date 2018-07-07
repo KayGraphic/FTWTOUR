@@ -1,4 +1,6 @@
 package com.example.android.ftwtour;
+/* Custom Class code adapted from Miwok app, supplemented by code from a Medium article by Nikhil Bansal
+ * https://medium.com/mindorks/custom-array-adapters-made-easy-b6c4930560dd*/
 public class Location {
 
     private String name;
