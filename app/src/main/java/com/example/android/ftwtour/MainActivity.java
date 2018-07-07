@@ -12,17 +12,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
-        /*ViewPager and TabLayout code based on StackOverflow question asked May 29 '15 by TWilly and answered May 30 '15 Oleksii Shliama
-         * https://stackoverflow.com/questions/30539772/android-tablayout-android-design*/
+
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
 
-        assert viewPager != null;
-        viewPager.setAdapter(new MainFragmentPagerAdapter(getSupportFragmentManager(),
+        // CategoryFragmentPagerAdapter adapter =
+        //     new CategoryFragmentPagerAdapter(getSupportFragmentManager());
+
+        viewPager.setAdapter(new CatagoryFragmentPagerAdapter(getSupportFragmentManager(),
                 MainActivity.this));
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
-        assert tabLayout != null;
         tabLayout.setupWithViewPager(viewPager);
     }
 }
